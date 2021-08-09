@@ -1,0 +1,140 @@
+.mainOrderBox {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  margin: 10px 5px;
+  padding: 15px;
+  border-radius: 5px;
+  /* flex-wrap: wrap; */
+}
+.orderImageMain {
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+}
+.orderImageMain img {
+  width: 150px;
+  height: 200px;
+}
+.descPartOrder {
+  padding: 20px;
+  width: 40%;
+}
+.orderTitle {
+  font-weight: bold;
+  font-size: 20px;
+}
+.orderQauntity {
+  font-size: 20px;
+}
+.orderTotalPrice {
+  font-weight: bold;
+  font-size: 18px;
+}
+.orderDesc {
+  font-size: 18px;
+}
+.orderCategory {
+  font-size: 20px;
+  font-weight: bold;
+}
+.orderDetail {
+  padding: 20px;
+  width: 40%;
+}
+.orderDescBox{
+    background-color: #eee;
+    padding: 20px;
+}
+.orderPlace{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: end;
+}
+.orderFirstKey{
+    font-size: 18px;
+    text-align: start;
+}
+@media screen and (min-width: 846px) and (max-width: 1000px){
+    .orderImageMain {
+        text-align: center;
+        padding: 20px;
+        width: 50%;
+      }
+      .descPartOrder {
+        padding: 20px;
+        width: 50%;
+      }
+      .orderDetail {
+        padding: 20px;
+        width: 50%;
+      }
+}
+@media screen and (min-width: 475px) and (max-width: 845px){
+    .mainOrderBox{
+        display:block !important;
+    }
+    .orderImageMain{
+        text-align:center !important;
+        width: 100%;
+    }
+    .descPartOrder{
+        text-align:start !important;
+        width: 100%;
+    }
+    .orderTitle{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .orderTotalPrice{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .orderCategory{
+        font-size: 16px;
+    }
+    .orderDetail {
+        padding: 20px;
+        width: 100%;
+      }
+    
+}
+@media screen and (min-width: 280px) and (max-width: 474px){
+    .mainOrderBox{
+        display:block !important;
+    }
+    .orderImageMain{
+        text-align:center !important;
+        padding: 0px;
+        width: 100%;
+    }
+    .orderImageMain img{
+        width: 90%;
+        height: 250px;
+    }
+    .descPartOrder{
+        text-align:start !important;
+        width: 100%;
+        padding: 0px;
+    }
+    .orderTitle{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .orderTotalPrice{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .orderDesc{
+        font-size: 16px;
+    }
+    .orderCategory{
+        font-size: 18px;
+    }
+    .orderDetail {
+        padding: 10px;
+        width: 100%;
+      }
+
+}

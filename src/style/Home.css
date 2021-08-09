@@ -1,0 +1,134 @@
+.productBox{
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.ImageProduct{
+    text-align:center;
+    padding: 20px;
+    width:35%;
+}
+.ImageProduct img{
+    width: 200px;
+    height: 250px;
+}
+.productDetail{
+    padding: 20px;
+    width: 65%;
+}
+.product_title{
+    font-weight: bold;
+    font-size: 22px;
+}
+.product_Price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.description{
+    font-size: 18px;
+}
+.category{
+    font-size: 20px;
+}
+.boxOfButtonRate{
+    display:flex;
+    justify-content: space-between;
+}
+.boxOfButtonRate button{
+    border: none;
+    background-color: #252525;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.boxOfButtonRate button a{
+    color: white;
+}
+.boxOfButtonRate button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;    
+}
+.boxOfButtonRate button a:hover{
+    color: black;
+}
+
+@media screen and (min-width: 475px) and (max-width: 845px){
+    .productBox{
+        display:block !important;
+    }
+    .ImageProduct{
+        text-align:center !important;
+        width: 100%;
+    }
+    .productDetail{
+        text-align:start !important;
+        width: 100%;
+    }
+    .product_title{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .product_Price{
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .category{
+        font-size: 16px;
+    }
+    .boxOfButtonRate{
+        display:flex !important;
+        justify-content:space-between;
+    }
+    .boxOfButtonRate button{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 280px) and (max-width: 474px){
+    .productBox{
+        display:block !important;
+    }
+    .ImageProduct{
+        text-align:center !important;
+        padding: 0px;
+        width: 100%;
+    }
+    .ImageProduct img{
+        width: 90%;
+        height: 250px;
+    }
+    .productDetail{
+        text-align:start !important;
+        width: 100%;
+        padding: 0px;
+    }
+    .product_title{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .product_Price{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .description{
+        font-size: 16px;
+    }
+    .category{
+        font-size: 18px;
+    }
+    .boxOfButtonRate{
+        display:block;
+    }
+    .boxOfButtonRate button{
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}

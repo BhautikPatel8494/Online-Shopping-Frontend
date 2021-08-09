@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.navBarMain {
+  display: flex;
+  width: 100%;
+  background-color: #252525;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.LogoMain h2 {
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+.navLi {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+.navUl{
+  margin-top: 13px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 474px){
+    .navBarMain {
+        display: block;
+        height: 80px;
+      }
+      .LogoMain h2 {
+        padding-left: 0px;
+        font-size: 20px;
+        margin-top: 0px;
+      }
+      .LogoMain{
+        text-align:center;
+      }
+      .navLi {
+        display: inline-block;
+        list-style: none;
+        position: relative;
+        left: 30%;
+        transform: translateX(-50%);
+      }
+}

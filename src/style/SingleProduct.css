@@ -1,0 +1,137 @@
+.SelectedBox{
+    display:block;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.ImageSelected{
+    text-align:center;
+    padding: 20px;
+}
+.ImageSelected img{
+    width: 200px;
+    height: 250px;
+}
+.SelectedDetail{
+    padding: 20px;
+    text-align:center;
+}
+.Selected_title{
+    font-weight: bold;
+    font-size: 22px;
+}
+.Selected_Price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Selecteddescription{
+    font-size: 20px;
+}
+.Selectedcategory{
+    font-size: 20px;
+}
+.boxOfSelected{
+    display:block;
+}
+.boxOfSelected button{
+    border: none;
+    background-color: #252525;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-top: 20px;
+}
+.boxOfSelected button a{
+    color: white;
+}
+.boxOfSelected button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;    
+}
+.boxOfSelected button a:hover{
+    color: black;
+}
+.secondSelected{
+    margin-top: 60px;
+}
+.headingRelated{
+    color: white;
+}
+.mainflexBox{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 20px 0;
+}
+.mainDetail{
+    width: 25%;
+    text-align:center;
+}
+.imgOfTheRelated img{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+}
+.titleOfRelated p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.detailView{
+    color: blue;
+    font-size: 22px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 474px){
+    .mainflexBox{
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .mainDetail{
+        width: 100%;
+        text-align:center;
+    }
+} 
+@media screen and (min-width: 475px) and (max-width: 775px){
+    .mainDetail{
+        width: 50%;
+        text-align:center;
+    }
+    .imgOfTheRelated img{
+        width: 170px;
+        height: 220px;
+        padding: 10px;
+    }
+    .titleOfRelated p{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+} 
+@media screen and (min-width: 776px) and (max-width: 927px){
+    .mainDetail{
+        width: 33.33%;
+        text-align:center;
+    }
+    .imgOfTheRelated img{
+        width: 170px;
+        height: 220px;
+        padding: 10px;
+    }
+    .titleOfRelated p{
+        font-size: 18px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+} 
