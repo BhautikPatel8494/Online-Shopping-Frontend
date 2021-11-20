@@ -1,4 +1,4 @@
-### `[LIVE DEMO](https://online-shopping-frontend-8494.herokuapp.com/)`
+[LIVE DEMO](https://online-shopping-frontend-8494.herokuapp.com/)
 
 # Getting Started with Create React App
 
