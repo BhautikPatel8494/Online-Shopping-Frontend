@@ -39,7 +39,7 @@ function Order() {
                       Total Amount : <span className="orderPlace"> ${item.price * item.quatity}</span>
                     </p>
                     <p className="orderFirstKey">
-                      Order Number : <span className="orderPlace"> 11162846541 </span>
+                      Order Number : <span className="orderPlace"> {Date.now()} </span>
                     </p>
                   </div>
                 </div>

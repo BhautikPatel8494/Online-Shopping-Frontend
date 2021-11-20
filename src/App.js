@@ -1,5 +1,4 @@
-import './App.css';
-import './index.css';
+import React from 'react';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
 import SingleProduct from './component/SingleProduct';
@@ -9,6 +8,8 @@ import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import store from './redux/store';
 import { Provider } from 'react-redux';
+import './App.css';
+import './index.css';
 
 function App() {
   return (
