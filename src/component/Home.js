@@ -40,7 +40,7 @@ function Home() {
                       <Rate allowHalf defaultValue={5} />
                       <Link to={`/${item.id}`}>
                         {' '}
-                        <button> View Product </button>
+                        <button> View Product here </button>
                       </Link>
                     </div>
                   </div>
